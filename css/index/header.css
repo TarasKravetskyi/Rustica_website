@@ -1,17 +1,30 @@
-.inline-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-  }
-  
-  .inline-list li {
-    padding: 5px; /* опціонально, для відступів між SVG-елементами */
-  }
+.header__logo-container {
+  max-width: 291px;
+}
 
-  .header__svg-icon {
-    height: 100px;
-    width: 100px;
-  }
-  
-  
-  
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.inline-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.inline-list li {
+  padding: 5px;
+}
+
+.header__svg-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.header__menu-item {
+  margin-right: 20px; /* Встановлюємо внутрішній відступ зправа між елементами */
+  text-decoration: none; /* Забираємо підкреслення з посилань */
+  color: #333; /* Встановлюємо колір тексту */
+}
