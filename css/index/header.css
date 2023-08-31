@@ -1,0 +1,17 @@
+.inline-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .inline-list li {
+    padding: 5px; /* опціонально, для відступів між SVG-елементами */
+  }
+
+  .header__svg-icon {
+    height: 100px;
+    width: 100px;
+  }
+  
+  
+  
