@@ -118,6 +118,22 @@
         transition-delay: 0.5s;
     }
 
+    .inline-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      
+      .inline-list li {
+        padding: 5px;
+      }
+      
+      .header__svg-icon {
+        height: 40px;
+        width: 40px;
+      }
+
 @media (min-width: 1006px) {
     .header__burger {
         display: none;
