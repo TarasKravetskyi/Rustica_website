@@ -1,6 +1,11 @@
 :root {
 	scroll-behavior: smooth;
 	font-family: 'PT Serif', serif;
+	 --color-burger: black;
+	 --color-burger-navmenu-bk: white;
+	 --color-burger-navmenu-txt: black;
+	 --color-header-telephone-text: rgb(249, 130, 80);
+
 
 }
 
