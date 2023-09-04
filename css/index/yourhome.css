@@ -1,0 +1,54 @@
+.yourhome__container {
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.welcome_container {
+    background-color: #f6f3ea;
+    padding: 31px 27px 31px 27px;
+}
+
+.welcome_container p {
+    font-size: 12px;
+    color: rgb(181, 105, 83);
+    text-transform: uppercase;
+}
+
+.welcome_container h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #114806;
+    text-transform: uppercase;
+}
+
+.yourhome__learnmore-button {
+    margin-top: 35px;
+}
+
+.yourhome__learnmore-button .button {
+    font-size: 14px;
+    display: inline-block;
+    padding:15px 26px 15px 26px;
+    color:white;
+    background-color: rgb(181, 105, 83);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+@media (min-width: 768) {
+    .item {
+        max-width: 370px;
+        padding-left: 15px;
+        padding-right: 15px;
+        flex-basis: 0;
+        /* Всі елементи будуть рівні за шириною */
+        flex-grow: 1;
+        /* Розподіл доступного простору рівномірно між елементами */
+    }
+
+}
