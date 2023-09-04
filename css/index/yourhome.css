@@ -1,6 +1,9 @@
-.yourhome__container {
+.yourhome {
     padding-left: 24px;
     padding-right: 24px;
+}
+
+.yourhome__container {
     display: flex;
     flex-direction: column;
 }
@@ -67,6 +70,19 @@
 .item {
     margin-top: 50px;
 }
+
+.seperator__line {
+    height: 3px;
+    width: 20%;
+    background-color: #b56953;
+    margin: 15px 0px 15px 0px;
+}
+
+.yourhome__svg {
+    height: 50px;
+    width: 50px;
+}
+
 
 @media (min-width: 768) {
     .item {
