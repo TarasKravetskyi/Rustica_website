@@ -1,0 +1,31 @@
+.roomsandinterior {
+    margin: 64px 24px 5px 24px;
+    background-color: #f6f3ea;
+}
+
+.roomsandinterior__description {
+    padding: 31px 27px 31px 27px;
+}
+
+.roomsandinterior__description__title {
+    font-size: 12px;
+    color: rgb(181, 105, 83);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.roomsandinterior__description__heading {
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #114806;
+    font-weight: 700;
+}
+
+.roomsandinterior__description__text {
+    line-height: 30px;
+    margin-top: 20px;
+    color: #114806;
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -1,6 +1,5 @@
 .yourhome {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 90px 24px 90px 24px;
 }
 
 .yourhome__container {
@@ -25,7 +24,7 @@
     margin-top: 20px;
     font-size: 24px;
     color: #114806;
-    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .yourhome__learnmore-button {
