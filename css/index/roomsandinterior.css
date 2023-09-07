@@ -1,10 +1,11 @@
 .roomsandinterior {
-    margin: 64px 24px 5px 24px;
-    background-color: #f6f3ea;
+    margin: 0px 24px 5px 24px;
+
 }
 
 .roomsandinterior__description {
     padding: 31px 27px 31px 27px;
+    background-color: #f6f3ea;
 }
 
 .roomsandinterior__description__title {
@@ -29,3 +30,55 @@
     font-size: 20px;
     font-weight: 400;
 }
+
+.roomsandinterior__text p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(17, 72, 6);
+    line-height: 30px;
+}
+/*
+.slick-slide {
+    margin-right: 20px;
+}
+
+.carousel .slick-prev {
+    left: 25px;
+}
+
+.carousel .slick-next {
+    right: 25px;
+}
+
+.slick-prev,
+.slick-next {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    background-color: #0056b3;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.carousel-slide {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
