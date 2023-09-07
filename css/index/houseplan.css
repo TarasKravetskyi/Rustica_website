@@ -49,3 +49,7 @@
     font-weight: bold;
     color: rgb(181, 105, 83);
 }
+
+.floor-plans__image-container {
+    margin-top: 25px;
+}
