@@ -1,0 +1,53 @@
+.activities {
+    padding: 0px 24px 0px 24px;
+}
+
+.activities__content {
+    padding: 31px 27px 31px 27px;
+    background-color: #f6f3ea;
+}
+
+.activities__title {
+    font-size: 12px;
+    color: rgb(181, 105, 83);
+    font-weight: 700;
+}
+
+.activities__heading {
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #114806;
+    font-weight: 700;
+}
+
+.activities__description {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #114806;
+    line-height: 30px;
+}
+
+.activities__list-item {
+    margin-top: 25px;
+}
+
+.activities__list li {
+    display: flex;
+}
+
+.activities__list-item-text {
+    padding-bottom: 16px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #114806;
+    line-height: 30px;
+}
+
+
+.activities__svg {
+    height: 20px;
+    width: 20px;
+    color: rgb(181, 105, 83);
+    ;
+}
