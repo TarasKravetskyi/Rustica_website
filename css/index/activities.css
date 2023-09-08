@@ -48,14 +48,11 @@
     line-height: 30px;
 }
 
-
 .activities__svg {
     height: 20px;
     width: 20px;
     color: rgb(181, 105, 83);
 }
-
-
 
 .activity__title {
     font-size: 18px;
@@ -64,7 +61,7 @@
 }
 
 .activity__description {
-    margin-top: 25px;
+    margin: 25px 0px 25px 0px;
     font-size: 16px;
     color: #114806;
     font-weight: 400;
@@ -75,20 +72,9 @@
     padding: 0px 20px 0px 20px;
 }
 
-
-
 .activity__image {
     aspect-ratio: 2 / 1;
     width: 100%;
     object-fit: cover;
     object-position: 50% 60%;
-    /* центрує зображення в контейнері */
 }
-
-/*
-.activity__image {
-    aspect-ratio: 2;
-    object-fit: cover;
-    object-position: 50% 60%;
-
-}*/
