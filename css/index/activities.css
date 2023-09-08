@@ -72,3 +72,10 @@
     font-weight: 400;
     line-height: 30px;
 }
+
+.activity__image {
+    aspect-ratio: 2;
+    object-fit: cover;
+    object-position:  60%;
+
+}
