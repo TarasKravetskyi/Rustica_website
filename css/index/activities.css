@@ -55,9 +55,7 @@
     color: rgb(181, 105, 83);
 }
 
-.activity {
-    padding: 0px 20px 0px 20px;
-}
+
 
 .activity__title {
     font-size: 18px;
@@ -73,9 +71,24 @@
     line-height: 30px;
 }
 
+.activity {
+    padding: 0px 20px 0px 20px;
+}
+
+
+
+.activity__image {
+    aspect-ratio: 2 / 1;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 60%;
+    /* центрує зображення в контейнері */
+}
+
+/*
 .activity__image {
     aspect-ratio: 2;
     object-fit: cover;
     object-position: 50% 60%;
 
-}
+}*/
