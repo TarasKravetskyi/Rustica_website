@@ -2,3 +2,32 @@
     padding: 80px 24px 80px 24px;
     background-color: rgb(27, 83, 27);
 }
+
+.contactus h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: azure;
+}
+
+.contactus p {
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(246, 243, 234);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.contactus__button {
+    margin-top: 35px;
+}
+
+.contactus__button .button {
+    font-size: 16px;
+    display: inline-block;
+    padding: 15px 26px 15px 26px;
+    color: white;
+    background-color: rgb(181, 105, 83);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
